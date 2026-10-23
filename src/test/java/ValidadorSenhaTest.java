@@ -17,7 +17,7 @@ public class ValidadorSenhaTest {
 
     @Test
     void senhaComOitoCaracteresEhValida() {
-        assertTrue(ValidadorSenha.validar("abcdef23"));
+        assertTrue(ValidadorSenha.validar("Abcdef23"));
     }
 
     @Test
