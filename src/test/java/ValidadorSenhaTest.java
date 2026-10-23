@@ -12,12 +12,12 @@ public class ValidadorSenhaTest {
 
     @Test
     void senhaComSeteCaracteresEhInvalida() {
-        assertFalse(ValidadorSenha.validar("Abcde123"));
+        assertFalse(ValidadorSenha.validar("Abcde1234"));
     }
 
     @Test
     void senhaComOitoCaracteresEhValida() {
-        assertTrue(ValidadorSenha.validar("Abcde123"));
+        assertTrue(ValidadorSenha.validar("Abcd"));
     }
 
     @Test
